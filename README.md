@@ -27,21 +27,21 @@ Learning of the embedding is handled by the `src/main.py` script which provides 
 #### Input and output options
 
 ```
-  --edge-path    STR     Input graph path.           Default is `input/ptbr_edges.csv`.
-  --feature-path STR     Input Features path.        Default is `input/ptbr_features.json`.
-  --output-path  STR     Embedding path.             Default is `output/ptbr_bane.csv`.
+  --input-path    STR     Input image path.         Default is `input/trex.jpg`.
+  --output-image  STR     Output image path.        Default is `output/edges/trex_edges.csv`.
+  --output-edges  STR     Edge list path.           Default is `output/plot/trex_graph.png`.
 ```
 
 #### Model options
 
 ```
-  --features               STR         Structure of the feature matrix.       Default is `sparse`. 
-  --dimensions             INT         Number of embeding dimensions.         Default is 48.
-  --order                  INT         Order of adjacency matrix powers.      Default is 1.
-  --binarization-rounds    INT         Number of power interations.           Default is 10.
-  --approximation-rounds   INT         Number of CDC interations.             Default is 5.
-  --alpha                  FLOAT       Regularization parameter.              Default is 0.7.
-  --gamma                  FLOAT       Weisfeiler-Lehman mixing parameter.    Default is 0.1.  
+  --node-color     STR         Node coloring in plot.         Default is `green`. 
+  --point-number   INT         Number of points in space.     Default is 10,000.
+  --dpi            INT         DPI of plot.                   Default is 500.
+  --radius         FLOAT       Radius for graph generation.   Default is 0.04.
+  --line-width     FLOAT       Line width.                    Default is 0.2.
+  --alpha          FLOAT       Alpha for color strength.      Default is 0.3.
+  --node-size      FLOAT       Node size in plot.             Default is 12.0.  
 ```
 
 ### Examples
