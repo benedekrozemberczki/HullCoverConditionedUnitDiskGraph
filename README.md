@@ -13,10 +13,12 @@ The codebase is implemented in Python 3.5.2. package versions used for developme
 networkx          1.11
 pandas            0.23.4
 argparse          1.1.0
+imageio           2.4.1
+matplotlib        2.2.2
 ```
 ### Datasets
 
-The code takes an input black and white jpeg file. Every pixel indicates whether the data point generated randomly is covered by the image or not. Not covered points are dropped. The `/input/` folder contains a Mickey Mouse head, a T-rex and a flower as an example input image.
+The code takes an input black and white jpeg file. Every pixel indicates whether the data point generated randomly is covered by black in the image or not. Points without a cover are dropped. The `/input/` folder contains a Mickey Mouse head, a T-rex and a flower as an example input image.
 
 ### Options
 
@@ -46,13 +48,13 @@ Learning of the embedding is handled by the `src/main.py` script which provides 
 
 The following commands learn a graph embedding and write the embedding to disk. The node representations are ordered by the ID.
 
-Creating a BANE embedding of the default dataset with the default hyperparameter settings. Saving the embedding at the default path.
+Creating a random graph from the default T-rex image. 
 
 ```
 python src/main.py
 ```
 
-Creating an embedding of an other dense structured dataset the `Wikipedia Giraffes`. Saving the output in a custom folder.
+Creating an random graph from the `flower` image. The graph generation and plotting parameters are changed to create a high quality result.
 
 ```
 python src/main.py --input-path input/flower.jpeg --output-image output/plot/flower.png --output-edges output/edges/flower.edges --node-color "red" --radius 0.07 --alpha 0.5
