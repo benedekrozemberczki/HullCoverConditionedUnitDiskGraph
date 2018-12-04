@@ -1,5 +1,5 @@
-Hull Cover Condition Unit Disk Graph Generator
-============================================
+Hull Cover Conditioned Unit Disk Graph Generator
+==================================================
 <p align="justify">
 A generator for unit disk graphs conditioned on hull cover. The model first generates uniformly distributed points in 2 dimensions. Based on the input image does pointw which are not covered with black are deleted from the initial set of points. Using the remaining point a fixed r-radius unit disk graph is grown. Finally, the edge list of the graph is saved with a large resolution plot of the graph.
   
@@ -51,20 +51,9 @@ Creating a BANE embedding of the default dataset with the default hyperparameter
 ```
 python src/main.py
 ```
-Creating a BANE embedding of the default dataset with 128 dimensions and approximation order 1.
-
-```
-python src/main.py --dimensions 128 --order 1
-```
-
-Creating a BANE embedding of the default dataset with asymmetric mixing.
-
-```
-python src/main.py --gamma 0.1
-```
 
 Creating an embedding of an other dense structured dataset the `Wikipedia Giraffes`. Saving the output in a custom folder.
 
 ```
-python src/main.py --edge-path input/giraffe_edges.csv --feature-path input/giraffe_features.csv --output-path output/giraffe_bane.csv --features dense
+python src/main.py --input-path input/flower.jpeg --output-image output/plot/flower.png --output-edges output/edges/flower.edges --node-color "red" --radius 0.07 --alpha 0.5
 ```
