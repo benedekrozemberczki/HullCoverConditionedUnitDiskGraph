@@ -1,4 +1,4 @@
-ConcaveHullUnitDiskGraph
+Hull Cover Condition Unit Disk Graph Generator
 ============================================
 <p align="justify">
 A generator for unit disk graphs conditioned on concave hull cover. Tex text text.
