@@ -36,6 +36,11 @@ def parameter_parser():
                         default = 10000,
 	                help = 'Number of data points before shaving. Default is 10,000.')
 
+    parser.add_argument('--dpi',
+                        type = int,
+                        default = 500,
+	                help = 'Number of data points per inch. Default is 500.')
+
     parser.add_argument('--radius',
                         type = float,
                         default = 0.04,

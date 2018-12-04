@@ -1,8 +1,8 @@
-import networkx as nx
 import random
 import imageio
-import matplotlib.pyplot as plt
 import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
 
 class ConncaveHullUnitDiskGraphGenerator(object):
 
@@ -41,7 +41,7 @@ class ConncaveHullUnitDiskGraphGenerator(object):
                 width=self.args.line_width,
                 edge_color="gray",
                 node_color=self.args.node_color)
-        plt.savefig(self.args.output_image, format='PNG', dpi=500)
+        plt.savefig(self.args.output_image, format='PNG', dpi=self.args.dpi)
         plt.close()
 
     def save_graph(self):
