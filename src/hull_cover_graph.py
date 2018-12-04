@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 class HullCoverConditionedUnitDiskGraphGenerator(object):
     """
+    Unit disk graph generation condition on image pixels.
     """
     def __init__(self, args):
         """
