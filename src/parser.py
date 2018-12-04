@@ -13,7 +13,7 @@ def parameter_parser():
     parser.add_argument('--input-path',
                         nargs = '?',
                         default = './input/trex.jpg',
-	                help = 'Input concave hull image.')
+	                help = 'Input image.')
 
     parser.add_argument('--output-edges',
                         nargs = '?',
