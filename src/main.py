@@ -1,9 +1,9 @@
-from concave_hull_graph import ConncaveHullUnitDiskGraphGenerator
+from hull_cover_graph import HullCoverConditionedUnitDiskGraphGenerator
 from parser import parameter_parser
 
 def main(args):
 
-    machine = ConncaveHullUnitDiskGraphGenerator(args)
+    machine = HullCoverConditionedUnitDiskGraphGenerator(args)
     machine.create_graph()
     machine.plot_graph()
     machine.save_graph()
