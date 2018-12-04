@@ -1,7 +1,7 @@
 Hull Cover Condition Unit Disk Graph Generator
 ============================================
 <p align="justify">
-A generator for unit disk graphs conditioned on concave hull cover. Tex text text.
+A generator for unit disk graphs conditioned on hull cover. The model first generates uniformly distributed points in 2 dimensions. Based on the input image does pointw which are not covered with black are deleted from the initial set of points. Using the remaining point a fixed r-radius unit disk graph is grown. Finally, the edge list of the graph is saved with a large resolution plot of the graph.
   
 </p>
 <div style="text-align:center"><img src ="mi.jpg" ,width=720/></div>
