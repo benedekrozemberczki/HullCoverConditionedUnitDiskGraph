@@ -4,7 +4,7 @@ ConcaveHullUnitDiskGraph
 A generator for unit disk graphs conditioned on concave hull cover. Tex text text.
   
 </p>
-<div style="text-align:center"><img src ="gitexamples.jpg" ,width=720/></div>
+<div style="text-align:center"><img src ="mi.jpg" ,width=720/></div>
 
 ### Requirements
 
