@@ -21,9 +21,9 @@ class HullCoverConditionedUnitDiskGraphGenerator(object):
         """
         Checking whether a point is covered in the image.
         """
-        x = int((1-point[1])*self.image.shape[0])
-        y = int(point[0]*self.image.shape[1])
-        if self.image[x,y,0] == 0:
+        y = int((1-point[1])*self.image.shape[0])
+        x = int(point[0]*self.image.shape[1])
+        if self.image[y,x,0] == 0:
             keep = True
         else:
             keep = False
