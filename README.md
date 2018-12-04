@@ -16,7 +16,7 @@ argparse          1.1.0
 ```
 ### Datasets
 
-The code takes an input graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. Sample graphs for the `Twitch Brasilians` ,`Wikipedia Chameleons` and `Wikipedia Giraffes` are included in the  `input/` directory. 
+The code takes an input black and white jpeg file. Every pixel indicates whether the data point generated randomly is covered by the image or not. Not covered points are dropped. The `/input/` folder contains a Mickey Mouse head, a T-rex and a flower as an example input image.
 
 ### Options
 
