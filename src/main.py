@@ -2,7 +2,9 @@ from hull_cover_graph import HullCoverConditionedUnitDiskGraphGenerator
 from parser import parameter_parser
 
 def main(args):
-
+    """
+    Plotting and saving the graph created.
+    """
     machine = HullCoverConditionedUnitDiskGraphGenerator(args)
     machine.create_graph()
     machine.plot_graph()
