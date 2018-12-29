@@ -52,7 +52,7 @@ class HullCoverConditionedUnitDiskGraphGenerator(object):
                 width=self.args.line_width,
                 edge_color="gray",
                 node_color=self.args.node_color)
-        plt.savefig(self.args.output_image, format='PNG', dpi=self.args.dpi)
+        plt.savefig(self.args.output_image, format="PNG", dpi=self.args.dpi)
         plt.close()
 
     def save_graph(self):
