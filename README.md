@@ -1,4 +1,4 @@
-Hull Cover Conditioned Unit Disk Graph Generator
+Hull Cover Conditioned Unit Disk Graph <img src="https://img.shields.io/badge/stars-5+-blue.svg"/> <img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
 ==================================================
 <p align="justify">
 A generator for unit disk graphs conditioned on hull cover. The model first generates uniformly distributed points in 2 dimensions. Based on the input image points which are not covered with black (conditioning) are deleted from the initial set of points. Using the remaining point a fixed r-radius unit disk graph is grown. Finally, the edge list of the graph is saved with a large resolution plot of the graph.
