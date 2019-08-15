@@ -1,5 +1,5 @@
-from hull_cover_graph import HullCoverConditionedUnitDiskGraphGenerator
 from parser import parameter_parser
+from hull_cover_graph import HullCoverConditionedUnitDiskGraphGenerator
 
 def main(args):
     """
