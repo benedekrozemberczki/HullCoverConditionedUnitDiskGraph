@@ -1,4 +1,6 @@
-from parser import parameter_parser
+"""Running the generator."""
+
+from param_parser import parameter_parser
 from hull_cover_graph import HullCoverConditionedUnitDiskGraphGenerator
 
 def main(args):
