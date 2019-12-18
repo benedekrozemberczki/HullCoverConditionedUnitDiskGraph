@@ -68,4 +68,5 @@ class HullCoverConditionedUnitDiskGraphGenerator(object):
         Saving the graph in an edge list format.
         """
         cols = ["node_1", "node_2"]
-        pd.DataFrame(self.graph.edges(), columns=cols, index=None).to_csv(self.args.output_edges)
+        edges = [edge for edge in self.graph.edges()]
+        pd.DataFrame(edges, columns=cols, index=None).to_csv(self.args.output_edges)
