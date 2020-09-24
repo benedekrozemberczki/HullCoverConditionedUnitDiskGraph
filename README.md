@@ -10,7 +10,7 @@ A generator for unit disk graphs conditioned on hull cover. The model first gene
 
 ### Requirements
 
-The codebase is implemented in Python 3.5.2. package versions used for development are just below.
+The codebase is implemented in **Python 3.5.2.** package versions used for development are just below.
 ```
 networkx          2.4
 pandas            0.23.4
