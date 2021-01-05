@@ -1,6 +1,6 @@
 Hull Cover Conditioned Unit Disk Graph
 ==================================================
-![License](https://img.shields.io/github/license/benedekrozemberczki/HullCoverConditionedUnitDiskGraph.svg?color=blue&style=plastic) [![codebeat badge](https://codebeat.co/badges/5c57174d-d084-4e40-b056-cdeda1d5f807)](https://codebeat.co/projects/github-com-benedekrozemberczki-hullcoverconditionedunitdiskgraph-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/HullCoverConditionedUnitDiskGraph.svg)](https://github.com/benedekrozemberczki/HullCoverConditionedUnitDiskGraph/archive/master.zip)
+[![codebeat badge](https://codebeat.co/badges/5c57174d-d084-4e40-b056-cdeda1d5f807)](https://codebeat.co/projects/github-com-benedekrozemberczki-hullcoverconditionedunitdiskgraph-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/HullCoverConditionedUnitDiskGraph.svg)](https://github.com/benedekrozemberczki/HullCoverConditionedUnitDiskGraph/archive/master.zip)
 
 <p align="justify">
 A generator for unit disk graphs conditioned on hull cover. The model first generates uniformly distributed points in 2 dimensions. Based on the input image points which are not covered with black (conditioning) are deleted from the initial set of points. Using the remaining point a fixed r-radius unit disk graph is grown. Finally, the edge list of the graph is saved with a large resolution plot of the graph.
@@ -62,3 +62,8 @@ Creating an random graph from the `flower` image. The graph generation and plott
 ```
 python src/main.py --input-path input/flower.jpeg --output-image output/plot/flower.png --output-edges output/edges/flower.edges --node-color "red" --radius 0.07 --alpha 0.5
 ```
+--------------------------------------------------------------------------------
+
+**License**
+
+- [GNU](https://github.com/benedekrozemberczki/HullCoverConditionedUnitDiskGraph/blob/master/LICENSE)
