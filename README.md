@@ -67,3 +67,5 @@ python src/main.py --input-path input/flower.jpeg --output-image output/plot/flo
 **License**
 
 - [GNU](https://github.com/benedekrozemberczki/HullCoverConditionedUnitDiskGraph/blob/master/LICENSE)
+
+--------------------------------------------------------------------------------
