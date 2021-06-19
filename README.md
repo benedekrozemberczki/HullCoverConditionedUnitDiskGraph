@@ -23,6 +23,10 @@ matplotlib        2.2.2
 The code takes an input black and white jpeg file. Every pixel indicates whether the data point generated randomly is covered by black in the image or not. Points without a cover are dropped. The `/input/` folder contains a Mickey Mouse head, a T-rex and a flower as an example input image.
 </p>
 
+
+--------------------------------------------------------------------------------
+
+
 ### Options
 
 Learning of the embedding is handled by the `src/main.py` script which provides the following command line arguments.
@@ -46,6 +50,9 @@ Learning of the embedding is handled by the `src/main.py` script which provides 
   --alpha          FLOAT       Alpha for color strength.      Default is 0.3.
   --node-size      FLOAT       Node size in plot.             Default is 12.0.  
 ```
+
+--------------------------------------------------------------------------------
+
 
 ### Examples
 
