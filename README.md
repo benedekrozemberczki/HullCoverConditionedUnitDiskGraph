@@ -1,5 +1,5 @@
 Hull Cover Conditioned Unit Disk Graph
-==================================================
+========================================
 [![codebeat badge](https://codebeat.co/badges/5c57174d-d084-4e40-b056-cdeda1d5f807)](https://codebeat.co/projects/github-com-benedekrozemberczki-hullcoverconditionedunitdiskgraph-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/HullCoverConditionedUnitDiskGraph.svg)](https://github.com/benedekrozemberczki/HullCoverConditionedUnitDiskGraph/archive/master.zip)⠀[![benedekrozemberczki](https://img.shields.io/twitter/follow/benrozemberczki?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=benrozemberczki)⠀
 
 <p align="justify">
@@ -24,7 +24,7 @@ The code takes an input black and white jpeg file. Every pixel indicates whether
 </p>
 
 
---------------------------------------------------------------------------
+-------------------------------------------------------------
 
 
 ### Options
