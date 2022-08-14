@@ -69,10 +69,10 @@ Creating an random graph from the `flower` image. The graph generation and plott
 ```
 python src/main.py --input-path input/flower.jpeg --output-image output/plot/flower.png --output-edges output/edges/flower.edges --node-color "red" --radius 0.07 --alpha 0.5
 ```
---------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 **License**
 
 - [GNU](https://github.com/benedekrozemberczki/HullCoverConditionedUnitDiskGraph/blob/master/LICENSE)
 
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------
